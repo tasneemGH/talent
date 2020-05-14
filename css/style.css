@@ -1,0 +1,423 @@
+@font-face {
+    font-family: "Amble";
+    src:url("../fonts/Harlow_Solid_Italic.ttf");
+}
+body{
+    font-family: "Amble";
+margin:0 auto;
+box-sizing: border-box;
+text-align: center;
+color:#ffffff;
+}
+.container{
+margin: 0 auto;
+padding-top:250px;
+    width:700px;
+    height: auto;
+    text-align: center;
+}
+.herosec{
+ width:100%;
+ height:auto;
+}
+.imgbkg{
+    text-align:center;
+    background-image: URL("../img/herobackground.png");
+    width:100%;
+    height:auto;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgbkg a{
+    float:left;
+    text-decoration: none;
+    color:white;
+}
+.imgbkg a i{
+font-size:30pt;
+margin-left:50px;
+margin-top:50px;
+}
+.clear{
+    clear:both;
+}
+.whitehr{
+    color:white;
+    width:90px;
+    border:1px solid white;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.mainTitle{
+    margin:0;
+}
+.mainTitle h1{
+    font-size:50pt;
+    margin:0;
+}
+.mainTitle p{
+    font-size:25px;
+    line-height: 1.5;
+}
+.mainTitle img{
+    width:30px;
+    margin-top:290px;
+}
+.whitebackgr{
+    background-color: white;
+    width:100%;
+    height: auto;
+}
+.blk{
+color: black;
+
+}
+hr.blk{
+    border:1px solid black;
+}
+.third{
+    padding-top:50px;
+    background-image: url("../img/background2.png")
+}
+.creat{
+    width:430px;
+    height:100px;
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.thrd{
+    padding-top:60px;
+    padding-bottom:60px
+}
+.menu{
+    text-align: center;   
+    margin-bottom:70px; 
+    margin-top:70px; 
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+.menu nav ul li{
+    list-style-type: none;
+    padding-left:30px;
+    display:inline-block;
+}
+.menu nav ul li:first-child{
+    padding-left:0px;
+}
+.imgGrid{
+    text-align:center;
+    margin: 0 auto;
+    width:1170px;
+    height:860px;
+    margin-bottom: 80px;
+}
+.menu nav ul li:hover{
+    font-weight: bold;
+}
+.imgGrid img{
+    width:100%;
+    height: 100%;
+   float:left;
+}
+.imgs{
+    position:relative;
+    width:370px;
+    cursor: pointer;
+    height:420px;
+    display:inline-block;
+}
+.blackhover{
+    position: absolute;
+    text-align: center;
+    LEFT: 0;
+    /* PADDING: 50% 0; */
+    TOP: 0;
+    background-color: rgba(0,0,0,0.8);
+    WIDTH: 100%;
+    HEIGHT: 100%;
+    Z-INDEX: 9999;
+    display: none;
+}
+
+.imgs:hover .blackhover{
+    display: block;
+}
+.Mob{
+    margin:0 auto;
+    padding: 40% 0;
+}
+.Mob hr{
+    width:50px;
+    border: 1px solid #d87843;
+
+}
+
+.more{
+    margin:0 auto;
+    width:370px;
+    height: 60px;
+    border:2px black solid; 
+}
+.more  a{
+text-decoration: none;
+color:black;  
+ 
+}
+
+.frth{
+    padding-bottom: 80px;
+
+}
+.thbg{
+    padding-top:150px;
+    padding-bottom: 150px;
+    background-image: url("../img/bacground3.png");
+}
+.help{
+    margin: 0 auto;
+    color:white;
+    border:2px white solid; 
+
+}
+.help a{
+    padding-left:80px;
+    color:white;
+}
+.graybg{
+    padding-top:140px;
+    padding-bottom: 140px;
+    background-color: #f4f4f4;
+    padding-bottom: 140px;
+}
+.graybg h2{
+    color:black;
+    font-size: 44pt;
+    margin:0;
+}
+.client{
+    padding-left:100px;;
+    margin:0 auto;
+    margin-top:80px;
+    width:1170px;
+    height: auto;
+    float:left;
+}
+.cimgs{
+     width:20%;
+float:left;
+}
+.cimgs img{
+    display: inline-block;
+}
+.fourthimg{
+    /* background-image: url("../img/backgroun4.png");
+    height: auto; */
+    height: 500px;
+    padding-bottom: 0;
+}
+.team{
+    margin:0 auto;
+    width:1170px;
+    height: 363px;
+    margin-top:20px;
+    margin-bottom: 75px;
+}
+.timgs{
+    width:100%;
+    height: 363;
+    float:left;
+
+}
+.teamimg{
+    width:20%;
+    height:300px;
+   display:inline-block;
+   text-align: center;
+   color:black;
+}
+.teamimg img{
+    width:100%;
+    height: 100%;
+    float:left;
+}
+.teamimg:last-child{
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.applybtn>h2{
+    width: 130px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.applybtn{
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+    float:left;
+}
+.apply{
+margin-top:0;
+ width:150px;
+height: 60px;
+border:2px black solid; 
+color:black;
+display: inline-block;
+
+}
+
+.apply a{
+    text-decoration: none;
+    color:black;
+   
+}
+.video{
+margin: 0 auto;
+text-align: center;
+color:white;
+}
+.fourthcont{
+    padding-top:100px;
+}
+.video i{
+    font-size:40pt;
+}
+.redfont{
+    color:#d87843;
+}
+.footer{
+    width:100%;
+    height: auto;
+    background-color:black;
+}
+.rightcopy p{
+    margin-top:65px;
+    display:inline-block;
+}
+.foot{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.rightcopy{
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+.location{
+    font-size:16pt;
+    color: black;
+    text-align:center;
+    background-color:#f2f2f2;
+    margin: 0 auto;
+    float:left;
+    width:33.33%;
+    height:100%;
+}
+.contactcont{
+    padding: 100px;
+}
+.contactcont h2{
+    text-align: left;
+    font-size:20pt;
+    margin:0;
+    margin-bottom: 40px;
+}
+.contactcont p{
+    line-height:1.5 ;
+    font-size:14pt;
+    text-align:left;
+}
+.socialicons a{
+    
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    padding-left:30px;
+
+}
+.socialicons a:first-child{
+    padding-left:0;
+}
+.socialicons{
+    margin-top:35px;
+    float:left;
+    width:100%;
+    height:auto;
+    text-align: left;
+}
+.socalicons a i{
+    font-size:18pt;
+    color:black;
+}
+.form{
+    padding: 100px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+}
+.inputtxt{
+    width: 100%;
+    height: 50px;
+}
+
+.inputname input {    
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    border-bottom: 1px solid;
+}
+.inputname{
+    position: relative;
+    height: 30px;
+    float: left;
+    width: 48%;
+}
+
+.inputname:last-child{
+    float: right;   
+}
+.formsec{
+    background-color: #e4e4e4;
+    width:66.66%;
+
+    height:100%;
+    margin: 0 auto;
+    float:left;
+
+}
+.inputname input::placeholder{
+ margin-bottom: 20px;
+ font-size:10pt;
+ margin-left:30px;
+}
+.inputname input ,.Message textarea{
+    width:100%;
+    padding-left: 10px;
+    border:0;
+    border-bottom: 1px solid #000;
+    background: none;
+}
+.Message textarea{
+    width:100%;
+}
+.fbtn{
+    margin-top:0;
+    text-align: center;
+    margin-right:200px;
+    float:right;
+}
+.fbtn a{
+    width:60px;
+height: 30px;
+
+}
